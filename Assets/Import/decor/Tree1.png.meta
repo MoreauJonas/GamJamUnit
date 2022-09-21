@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -7931,9 +7931,9 @@ TextureImporter:
       Tree1_116: -1740394156
       Tree1_170: -165253527
       Tree1_196: -1117454565
-      Tree1_256: -814458844
-      Tree1_174: 1790349329
       Tree1_222: 1709955480
+      Tree1_174: 1790349329
+      Tree1_256: -814458844
       Tree1_142: 1639269824
       Tree1_257: -1209010740
       Tree1_262: 1932369792
@@ -7964,16 +7964,16 @@ TextureImporter:
       Tree1_201: 1926641011
       Tree1_208: 1980975346
       Tree1_114: 1683234008
+      Tree1_236: 694839166
       Tree1_88: -1417979977
       Tree1_301: -598390509
       Tree1_129: -1605008868
       Tree1_217: -1887325815
-      Tree1_236: 694839166
+      Tree1_286: -936731551
       Tree1_59: 1870021278
       Tree1_130: 1684830820
-      Tree1_286: -936731551
-      Tree1_167: 1759531249
       Tree1_364: -1280982210
+      Tree1_167: 1759531249
       Tree1_225: -1634701690
       Tree1_248: -389630225
       Tree1_152: 43635414
@@ -8132,9 +8132,9 @@ TextureImporter:
       Tree1_81: -787398718
       Tree1_74: 1353867464
       Tree1_64: -561734839
+      Tree1_334: 1796980863
       Tree1_144: 1436659699
       Tree1_267: 1988750281
-      Tree1_334: 1796980863
       Tree1_33: 780680266
       Tree1_143: 49471345
       Tree1_205: -2015900500
@@ -8147,8 +8147,8 @@ TextureImporter:
       Tree1_83: 1966956145
       Tree1_261: -1821416390
       Tree1_314: 1829090350
-      Tree1_121: 137430799
       Tree1_336: 1019161986
+      Tree1_121: 137430799
       Tree1_249: -742330840
       Tree1_104: 460495496
       Tree1_311: 1423068302
@@ -8163,9 +8163,9 @@ TextureImporter:
       Tree1_7: 388556146
       Tree1_8: 976461076
       Tree1_332: 1513024256
-      Tree1_39: 1857681063
       Tree1_87: 125357723
       Tree1_322: -2096720700
+      Tree1_39: 1857681063
       Tree1_111: -1677051736
       Tree1_63: -1296379999
       Tree1_273: 1315537174

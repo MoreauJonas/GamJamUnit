@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -13924,11 +13924,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Wall_514: -1371074644
+      Wall_104: -494182479
       Wall_116: 2061034931
       Wall_486: -1754094165
       Wall_374: -347177764
-      Wall_653: 1083597474
       Wall_245: 1949150106
       Wall_476: 699278694
       Wall_188: 1514484239
@@ -13963,16 +13962,16 @@ TextureImporter:
       Wall_9: -168072068
       Wall_149: -943206231
       Wall_99: -1396109796
-      Wall_72: -57915365
-      Wall_211: 1599117292
       Wall_310: 2019463411
-      Wall_440: -594726123
+      Wall_211: 1599117292
+      Wall_72: -57915365
       Wall_327: -1002656514
       Wall_497: 732317233
-      Wall_465: -1382339782
+      Wall_440: -594726123
       Wall_138: 75421941
       Wall_333: 2014042710
       Wall_607: -973796018
+      Wall_465: -1382339782
       Wall_457: -374543905
       Wall_563: -1955368225
       Wall_152: -1538138273
@@ -14069,38 +14068,38 @@ TextureImporter:
       Wall_190: -209481200
       Wall_125: -6248175
       Wall_319: -355561301
-      Wall_18: 1992072904
+      Wall_401: 170201535
       Wall_330: 1226239109
+      Wall_387: 739849350
       Wall_249: -1260134387
       Wall_344: 343927107
-      Wall_140: 2040899538
-      Wall_345: 330672434
       Wall_516: 713090287
-      Wall_387: 739849350
+      Wall_345: 330672434
+      Wall_140: 2040899538
       Wall_331: -1331053153
       Wall_468: -1223219761
       Wall_297: 684939000
       Wall_3: -1025165071
       Wall_25: -561770644
-      Wall_401: 170201535
+      Wall_446: 1449692146
       Wall_63: -337166881
       Wall_242: 615124553
       Wall_315: -503326977
       Wall_268: -1238927770
-      Wall_446: 1449692146
+      Wall_630: 688532065
       Wall_276: 894506232
       Wall_1: 719690798
-      Wall_415: 1168537839
       Wall_477: 1309957500
       Wall_472: 965262461
       Wall_351: 1028480319
       Wall_129: 1067200624
+      Wall_415: 1168537839
       Wall_543: -1395921689
-      Wall_495: 52497409
       Wall_632: 323948622
-      Wall_633: -917789539
-      Wall_630: 688532065
+      Wall_495: 52497409
+      Wall_18: 1992072904
       Wall_202: 1314406585
+      Wall_633: -917789539
       Wall_92: 1301665267
       Wall_260: -845103071
       Wall_354: -2126194162
@@ -14556,12 +14555,13 @@ TextureImporter:
       Wall_421: -926974146
       Wall_548: 599229823
       Wall_383: -1743690613
+      Wall_653: 1083597474
       Wall_174: 1684581695
       Wall_392: 1035381845
       Wall_338: -188342145
-      Wall_549: -1169166298
       Wall_566: 1614364243
       Wall_323: -934371834
+      Wall_549: -1169166298
       Wall_199: -1106097794
       Wall_376: -879868766
       Wall_153: -1605963431
@@ -14579,8 +14579,8 @@ TextureImporter:
       Wall_309: 1593722210
       Wall_562: 951191482
       Wall_553: 1102878000
-      Wall_104: -494182479
       Wall_479: -1499604699
+      Wall_514: -1371074644
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
