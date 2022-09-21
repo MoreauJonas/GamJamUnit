@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -10246,8 +10246,8 @@ TextureImporter:
       Floor_134: 847014855
       Floor_409: -1150350218
       Floor_248: 1289067754
-      Floor_128: -1260232073
       Floor_210: 35034329
+      Floor_128: -1260232073
       Floor_90: 437518161
       Floor_195: 218856007
       Floor_91: -385979120
@@ -10350,8 +10350,8 @@ TextureImporter:
       Floor_101: -2108677345
       Floor_365: 2122326643
       Floor_433: 1830826782
-      Floor_207: 772889402
       Floor_434: -229212468
+      Floor_207: 772889402
       Floor_426: -391740407
       Floor_352: 1072810678
       Floor_393: -446633717
@@ -10361,12 +10361,12 @@ TextureImporter:
       Floor_200: 1483546584
       Floor_380: 1901167938
       Floor_149: 1116607492
-      Floor_466: 1056151056
+      Floor_473: 2121467749
       Floor_238: -165570675
       Floor_356: 1988652321
+      Floor_466: 1056151056
       Floor_45: 598862348
       Floor_336: -2791929
-      Floor_473: 2121467749
       Floor_381: -837079182
       Floor_226: -1435706416
       Floor_218: -1907833010
@@ -10455,8 +10455,8 @@ TextureImporter:
       Floor_25: -464267746
       Floor_63: 1361481119
       Floor_72: 740209185
-      Floor_32: 757601549
       Floor_206: 1271802874
+      Floor_32: 757601549
       Floor_66: 205293785
       Floor_429: -912056223
       Floor_247: -57356621
@@ -10472,10 +10472,10 @@ TextureImporter:
       Floor_169: -211888381
       Floor_192: -1319683190
       Floor_227: 880851298
-      Floor_94: 913669571
+      Floor_368: -836214802
       Floor_102: 542453370
       Floor_317: 729439558
-      Floor_368: -836214802
+      Floor_94: 913669571
       Floor_78: 1653060959
       Floor_258: -1424510370
       Floor_477: 2013913856
@@ -10525,11 +10525,11 @@ TextureImporter:
       Floor_373: 1850010289
       Floor_387: -671404751
       Floor_120: 854618610
-      Floor_185: 274101643
       Floor_320: -1943915965
       Floor_332: 586790692
       Floor_355: 557973574
       Floor_353: -1942917564
+      Floor_185: 274101643
       Floor_323: -2045769123
       Floor_105: -39986704
       Floor_178: 34453529
@@ -10544,10 +10544,10 @@ TextureImporter:
       Floor_60: 1894386876
       Floor_246: -209066569
       Floor_54: 1009118223
-      Floor_111: 790435601
       Floor_223: 1110978635
-      Floor_272: -1052691976
+      Floor_111: 790435601
       Floor_389: 1036173482
+      Floor_272: -1052691976
       Floor_303: -906028577
       Floor_439: -1577164629
       Floor_23: 178556136
