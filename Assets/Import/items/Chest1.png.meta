@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 19c1e5a447390b049a723d306e9ef1ef
+guid: 6d006e7a21e4a43ffb3afb89cf4b9cbc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,91 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mage_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f946f37fa78fc9439ae87aa646a9ceb
-      internalID: 1235409342
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mage_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 97326d35d96de784685fdd1603919d8b
-      internalID: 927804918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mage_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b376765e89f19b74a88a5165927038a7
-      internalID: 1608969812
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mage_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50cea88cb63e93941adb2144f67242b1
-      internalID: 727527880
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mage_4
+      name: Chest1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -215,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d741da5c10f343445a546eb0e8f1fd8d
-      internalID: -1693872457
+      spriteID: a57d6583923ce49ed8d2fcd62db5e42e
+      internalID: -343214056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mage_5
+      name: Chest1_1
       rect:
         serializedVersion: 2
         x: 16
@@ -236,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f33d716e8aa8b547a006fd29b75cff7
-      internalID: -1926152829
+      spriteID: d4858f616d32141f9ae015807eee41cc
+      internalID: 721493557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mage_6
+      name: Chest1_2
       rect:
         serializedVersion: 2
         x: 32
@@ -257,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3192bbfa19e812140a332145c163a316
-      internalID: 685034154
+      spriteID: 5ddf06cbf21bd4c2498a87e731ae51c9
+      internalID: 1441059417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mage_7
+      name: Chest1_3
       rect:
         serializedVersion: 2
         x: 48
@@ -278,14 +194,98 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ddb0ffd08fe48b4a94c913f2a19aa1a
-      internalID: -961585601
+      spriteID: 145098ab6f59d4f5c94b78240567998e
+      internalID: -599546537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mage_8
+      name: Chest1_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db169adcfffc941fa8330d2c8d6cc17b
+      internalID: -15414516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest1_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5dd6cfca759845f9ae10bd2fe9569d2
+      internalID: -1896794397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest1_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e24dad9ca754feca8fde171837bf1a
+      internalID: -713055042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest1_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afccf50446ff24c4caead8432699f227
+      internalID: 1093085352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest1_8
       rect:
         serializedVersion: 2
         x: 0
@@ -299,14 +299,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e77bbcaf85fd7064ab1e6044ac78cfc6
-      internalID: 652466726
+      spriteID: 3cdc5db2f860b416db7afb5b5341b9b8
+      internalID: 1757423684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mage_9
+      name: Chest1_9
       rect:
         serializedVersion: 2
         x: 16
@@ -320,14 +320,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bc1ed5783d049645b5039292050ef92
-      internalID: -1183829090
+      spriteID: abb9ea9ddbfce4d3ebf7030b02a0819f
+      internalID: 39653689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mage_10
+      name: Chest1_10
       rect:
         serializedVersion: 2
         x: 32
@@ -341,14 +341,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82f304dce7522d646b6ab8f371043d93
-      internalID: -2630721
+      spriteID: 7974da5faa02f4f8e9b370bcd0fe3c69
+      internalID: -1766513926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mage_11
+      name: Chest1_11
       rect:
         serializedVersion: 2
         x: 48
@@ -362,14 +362,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 617cd60087d517d41b905be0b9147ccb
-      internalID: -337821688
+      spriteID: 0b9346c0881a341f98ae23f4130fb7a5
+      internalID: -2007722772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mage_12
+      name: Chest1_12
       rect:
         serializedVersion: 2
         x: 0
@@ -383,14 +383,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16ecbee71699459479fa02fe7d8a12dd
-      internalID: 134645208
+      spriteID: 8a67f7b5049ab4ba9ba6f912feec3664
+      internalID: 610987314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mage_13
+      name: Chest1_13
       rect:
         serializedVersion: 2
         x: 16
@@ -404,14 +404,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c0447d6f0fdacf499a65425775f78bc
-      internalID: 666730355
+      spriteID: db9388b54cc764b9cafababc72e95290
+      internalID: -1825750602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mage_14
+      name: Chest1_14
       rect:
         serializedVersion: 2
         x: 32
@@ -425,14 +425,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3aaa769a27ac8f43b4fe316f08639e1
-      internalID: -2042715173
+      spriteID: bf879d9c5537049f29c0a9f31eda748b
+      internalID: 80551889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mage_15
+      name: Chest1_15
       rect:
         serializedVersion: 2
         x: 48
@@ -446,8 +446,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a066d13014b3a8747931261e2aa1a648
-      internalID: -1670345326
+      spriteID: ac062ac6b07434cdd97152d6859779a2
+      internalID: 1517936080
       vertices: []
       indices: 
       edges: []
@@ -463,22 +463,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mage_11: -337821688
-      Mage_12: 134645208
-      Mage_3: 727527880
-      Mage_1: 927804918
-      Mage_10: -2630721
-      Mage_0: 1235409342
-      Mage_8: 652466726
-      Mage_13: 666730355
-      Mage_7: -961585601
-      Mage_15: -1670345326
-      Mage_5: -1926152829
-      Mage_9: -1183829090
-      Mage_4: -1693872457
-      Mage_2: 1608969812
-      Mage_6: 685034154
-      Mage_14: -2042715173
+      Chest1_7: 1093085352
+      Chest1_4: -15414516
+      Chest1_5: -1896794397
+      Chest1_12: 610987314
+      Chest1_14: 80551889
+      Chest1_9: 39653689
+      Chest1_3: -599546537
+      Chest1_8: 1757423684
+      Chest1_13: -1825750602
+      Chest1_6: -713055042
+      Chest1_0: -343214056
+      Chest1_1: 721493557
+      Chest1_11: -2007722772
+      Chest1_15: 1517936080
+      Chest1_2: 1441059417
+      Chest1_10: -1766513926
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
