@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -7893,10 +7893,10 @@ TextureImporter:
       Tree0_164: -1343254430
       Tree0_108: 711422599
       Tree0_63: -1324005885
-      Tree0_71: -1259121035
-      Tree0_286: 891481180
       Tree0_94: 924202854
+      Tree0_71: -1259121035
       Tree0_342: -1949801351
+      Tree0_286: 891481180
       Tree0_102: -2001632848
       Tree0_288: -819975610
       Tree0_161: 733078982
@@ -8090,8 +8090,8 @@ TextureImporter:
       Tree0_219: -477238979
       Tree0_220: -1476488422
       Tree0_141: -674951509
-      Tree0_41: 900660874
       Tree0_336: -2102893147
+      Tree0_41: 900660874
       Tree0_265: 1526893841
       Tree0_159: -1298929548
       Tree0_174: 331931302
@@ -8153,16 +8153,16 @@ TextureImporter:
       Tree0_114: -380136655
       Tree0_228: -875059388
       Tree0_18: 1307842953
-      Tree0_221: 1894454646
-      Tree0_10: 996864875
       Tree0_162: -864832778
+      Tree0_218: 271102468
+      Tree0_10: 996864875
+      Tree0_221: 1894454646
       Tree0_148: -943570997
       Tree0_258: 742483804
-      Tree0_218: 271102468
       Tree0_240: 1209372912
+      Tree0_295: -994304225
       Tree0_187: -516646520
       Tree0_232: 1341446876
-      Tree0_295: -994304225
       Tree0_338: -2103747384
       Tree0_166: 1124561186
       Tree0_29: 2089527948
