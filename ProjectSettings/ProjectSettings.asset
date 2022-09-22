@@ -657,11 +657,11 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
-  cloudProjectId: 
+  cloudProjectId: bb4fd345-219d-4a09-9da9-a3ecdafa2cbf
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: UnityProject (2)
+  organizationId: kiri_jeremy
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
