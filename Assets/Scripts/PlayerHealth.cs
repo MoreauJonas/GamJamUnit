@@ -75,16 +75,8 @@ public class PlayerHealth : MonoBehaviour
         }
         
     }
-      public static PlayerHealth instance;
-  private void Awake()
-  {
-    if (instance !=null)
-    {
-      Debug.LogWarning("Il y a plus d'une instance de PlayerHealth dnas la scéne");
-      return;
-    }
-    instance = this;
-  }
+
+
 
     public void Die()
         {

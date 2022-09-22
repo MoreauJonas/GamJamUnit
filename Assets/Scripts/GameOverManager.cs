@@ -6,7 +6,7 @@ public class GameOverManager : MonoBehaviour
 {
     public GameObject gameOverUI;
 
-    public static GameOverManager instance;
+  public static GameOverManager instance;
   private void Awake()
   {
     if (instance !=null)
@@ -29,6 +29,7 @@ public class GameOverManager : MonoBehaviour
 //recommencer le niveau
     public void RetryButton()
     {
+      Debug.Log("coucou");
     //recharger la scene
     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     
