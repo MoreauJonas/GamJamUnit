@@ -4,7 +4,7 @@ public class PlayerMovement : MonoBehaviour
 
 {
   // Components
-  Rigidbody2D rb;
+  public Rigidbody2D rb;
 
   // Player
   float walkSpeed = 4f;
@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
   float inputVertical;
 
   // Animations and states
-  Animator animator;
+  public Animator animator;
   string currentState;
   const string PLAYER_IDLE = "Player_Idle";
   const string PLAYER_WALK_LEFT = "Player_Walk_Left";
@@ -22,10 +22,25 @@ public class PlayerMovement : MonoBehaviour
   const string PLAYER_WALK_DOWN = "Player_Walk_Down";
 
   // Start is called before the first frame update
-  void Start()
+   void Start()
   {
     rb = gameObject.GetComponent<Rigidbody2D>();
     animator = gameObject.GetComponent<Animator>();
+  }
+
+  //changer le bodyType à la mort
+  public BoxCollider2D playerCollider;
+
+  //empécher les mouvements à la mort
+  public static PlayerMovement instance;
+  private void Awake()
+  {
+    if (instance !=null)
+    {
+      Debug.LogWarning("Il y a plus d'une instance de PlayerMovement dnas la scéne");
+      return;
+    }
+    instance = this;
   }
 
   // Update is called once per frame
