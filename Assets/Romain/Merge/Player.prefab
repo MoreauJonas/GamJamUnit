@@ -182,4 +182,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 100
+  invisibilityDelayEnd: 2
+  invisibilityFlashDelay: 0.2
+  isInvincible: 0
+  graphics: {fileID: 0}
   healthBar: {fileID: 0}
