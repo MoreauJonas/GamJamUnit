@@ -38,7 +38,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.H))
         {
-            TakeDamage(20);
+            TakeDamage(60);
         }
     }
 
@@ -61,12 +61,56 @@ public class PlayerHealth : MonoBehaviour
         {
             currentHealth -= damage;
             healthBar.SetHealth(currentHealth);
+
+            //verification si le joueur est toujours vivant
+            if(currentHealth <= 0)
+            {
+                Die();
+                return;
+            }
+
             isInvincible = true;
             StartCoroutine(InvincibilityFlash());
             StartCoroutine(HandleInvincibilitiyDelay());
         }
         
     }
+
+
+
+    public void Die()
+        {
+            Debug.Log("le joueur est éliminé");
+            //bloquer les mouvement du personnage
+            PlayerMovement.instance.enabled=false;
+
+            //jouer l'animation d'élimination
+            PlayerMovement.instance.animator.SetTrigger("Die");
+
+            //empécher les interaction pysqie avec les autres éléments de la scéne
+            PlayerMovement.instance.rb.bodyType = RigidbodyType2D.Kinematic;
+            PlayerMovement.instance.playerCollider.enabled=false;
+
+            //ecran de game over
+            GameOverManager.instance.OnPlayerDeath();
+
+        }
+        public void Respawn()
+        {
+            Debug.Log("le joueur est éliminé");
+            //bloquer les mouvement du personnage
+            PlayerMovement.instance.enabled=true;
+
+            //jouer l'animation d'élimination
+            PlayerMovement.instance.animator.SetTrigger("Respawn");
+
+            //empécher les interaction pysqie avec les autres éléments de la scéne
+            PlayerMovement.instance.rb.bodyType = RigidbodyType2D.Dynamic;
+            PlayerMovement.instance.playerCollider.enabled=true;
+            currentHealth = maxHealth;
+            healthBar.SetHealth(currentHealth);
+        }
+    
 
     public IEnumerator InvincibilityFlash()
     {

@@ -6,7 +6,7 @@ public class enemyWarlock : MonoBehaviour
     public float speed;
     public Transform[] waypoints;
 
-    public int damageOnCollision = 20;
+  
 
     public SpriteRenderer graphics;
     private Transform target;
@@ -37,7 +37,7 @@ public class enemyWarlock : MonoBehaviour
         if(collision.transform.CompareTag("Player"))
         {
             PlayerHealth playerHealth = collision.transform.GetComponent<PlayerHealth>();
-            playerHealth.TakeDamage(damageOnCollision);
+            playerHealth.TakeDamage(20);
         }
     }
 }
