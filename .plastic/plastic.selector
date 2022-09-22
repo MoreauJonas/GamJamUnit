@@ -1,0 +1,4 @@
+repository "GameJam@Lords_Of_Pings@cloud"
+  path "/"
+    br "/main"
+    co "/main"
