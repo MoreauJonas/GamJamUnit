@@ -40,4 +40,5 @@ public class enemyWarlock : MonoBehaviour
             playerHealth.TakeDamage(20);
         }
     }
+    
 }
